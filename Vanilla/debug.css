@@ -1,0 +1,11 @@
+body {
+    border: red 1px solid;
+}
+
+header {
+    border: greenyellow 1px solid;
+}
+
+main {
+    border: pink 1px solid;
+}

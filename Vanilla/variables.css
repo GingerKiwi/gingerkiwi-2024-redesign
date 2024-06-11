@@ -1,0 +1,17 @@
+:root {
+    /* Colours */
+    --clr-white: #FFFFFF;
+    --clr-slate-100:#F1F5F9 ;
+    --clr-almost-black: #030712;
+    --clr-gradient-right: ;
+    --clr-pink-extra-bright: #FF03C4;
+    --clr-orange-bright: #F97316;
+    --clr-orange-500: #F97316;
+    --clr-green-bright: #A3E635;
+
+    /* Fonts */
+    --ff-code: "Code New Roman", monospace;
+    --ff-body: "Reddit Mono", sans;
+    --ff-heading: "Trocchi", serif;
+    --ff-body-sans: "Noto Sans Display", sans-serif;
+}

@@ -1,0 +1,11 @@
+.text-intro {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: var(--ff-heading);
+}
+
+.site-name {
+    font-size: 3.75rem;
+    text-decoration: none;
+}

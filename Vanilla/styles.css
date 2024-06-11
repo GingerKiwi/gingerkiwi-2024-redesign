@@ -1,0 +1,70 @@
+
+/* Typography */
+
+body {
+    background-color: var(--clr-almost-black);
+    color: var(--clr-slate-100);
+}
+
+header {
+    padding: 1rem;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    font-family: var(--ff-heading);
+}
+
+header p {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main {
+    padding: 4rem;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: var(--ff-heading);
+}
+
+footer {
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h1, h2 {
+    font-family: var(--ff-heading);
+    font-weight: 900;
+    color: var(--clr-pink-extra-bright);
+    letter-spacing: .2rem;
+}
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: var(--ff-body);
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+}
+
+a {
+    color: var(--clr-pink-extra-bright);
+}
