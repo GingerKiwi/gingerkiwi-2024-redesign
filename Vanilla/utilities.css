@@ -9,3 +9,13 @@
     font-size: 3.75rem;
     text-decoration: none;
 }
+
+.font-orange {
+    color: var(--clr-orange-500);
+}
+
+.border-green {
+    border: var(--clr-green-bright) 2px solid;
+    padding: 1rem;
+    border-radius: 12px;
+}
