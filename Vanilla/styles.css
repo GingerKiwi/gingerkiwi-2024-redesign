@@ -27,12 +27,58 @@ main {
     padding: 4rem;
 }
 
-.intro p {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 2rem;
-    font-family: var(--ff-heading);
+nav {
+    background-color: #111827;
+    padding: 1rem;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    /* positioning the close button and navbar */
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+    /* animate slide up/down */
+    transform: translateY(-100%);
+    transition: transform 0.2s ease;
 }
+
+nav:target {
+    transform: translateY(0);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: var(--clr-pink-extra-bright);
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+nav a:focus {
+    text-decoration: underline;
+    color: var(--clr-slate-100);
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
 
 footer {
     padding-left: 4rem;

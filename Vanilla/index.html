@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ginger Kiwi</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="variables.css">
     <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="utilities.css">
     <link rel="stylesheet" href="debug.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Trocchi&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f7d121694b.js" crossorigin="anonymous"></script> -->
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.1/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.1/cdn/shoelace-autoloader.js"></script> -->
+
 </head>
 <body>
     <header>
-        <nav><a href="#main">Skip to Main</a>
-            <a href="/sitemap">Site Map</a>
+        <a href="#main">Skip to Main</a>
+        <a href="#navbar" class="hambuger">
+            <span class="sr-only">Open main menu</span>
+            <img src="assets/hamburger-orange.svg" alt="">
+        </a>
+        <nav>
+            
             <ul>
                 <li><a href="/home">Home</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/services">Services</a></li>
                 <li><a href="/contact">Contact</a></li>
+                <li><a href="/sitemap">Site Map</a></li>
             </ul>
+            <a href="#" class="close-menu" aria-label="Close main menu"></a><span class="sr-only">Close main menu</span>
+            <img src="assets/close-square-svgrepo-com.svg" aria-hidden="true">
         </nav>
+        
         <a href="/index.html" class="site-name">Ginger Kiwi</a>
         <p>Making Accessibility Accessible!</p>
     </header>
@@ -33,7 +49,7 @@
         <section class="intro"> 
         <h1>Hi, I'm Liz!</h1>
         <p>I’m a developer, writer, speaker, designer, and accessibility advocate making accessibility accessible.</p>
-        <p>Let's chat</p>
+        <p>Let's chat!</p>
         <p class="font-orange border-green">I'm building this redesign in public!</p>
     </section>
 
@@ -41,21 +57,21 @@
             <h2>Recent Articles</h2>
             <div class="card-container">
                 <div class="card">
-                    <img src="/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
+                    <img src="/Vanilla/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
                     <h3>Article Title</h3>
                     <span>date</span>
                     <p>Coding with accessibility in mind can be intimidating if you’re not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Yet, it’s an essential skill to be both legally compliant, and to have easy to read and maintain code.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
+                    <img src="/Vanilla/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
                     <h3>Article Title</h3>
                     <span>date</span>
                     <p>Coding with accessibility in mind can be intimidating if you’re not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Yet, it’s an essential skill to be both legally compliant, and to have easy to read and maintain code.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
+                    <img src="/Vanilla/assets/02_DesignTips_BackEndDevs_1200x630 1.png" alt="Text: design tips for backend devs. Design: rainbow">
                     <h3>Article Title</h3>
                     <span>date</span>
                     <p>Coding with accessibility in mind can be intimidating if you’re not familiar with the needs of disabled, neurodiverse, Deaf/deaf, and hard of hearing users. Yet, it’s an essential skill to be both legally compliant, and to have easy to read and maintain code.
@@ -68,4 +84,5 @@
         <h2>This site is a member of the A11y Web Ring Club</h2>
     </footer>
 </body>
+
 </html>

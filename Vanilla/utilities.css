@@ -5,10 +5,43 @@
     font-family: var(--ff-heading);
 }
 
+.intro p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-family: var(--ff-heading);
+}
+
 .site-name {
     font-size: 3.75rem;
     text-decoration: none;
 }
+
+/* Nav */
+.hamburger, .close-menu {
+    color: var(--clr-green-bright);
+    font-size: 2rem;
+}
+
+.close-menu {
+    color: aliceblue;
+}
+
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    }
+  
+
+.active {
+    color: var(--clr-green-bright);
+}    
+
+/* Colours */
 
 .font-orange {
     color: var(--clr-orange-500);

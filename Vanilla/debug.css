@@ -9,3 +9,7 @@ header {
 main {
     border: pink 1px solid;
 }
+
+.card {
+    border: lightseagreen 1px dashed;
+}
