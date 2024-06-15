@@ -28,7 +28,8 @@ main {
 }
 
 nav {
-    background-color: #111827;
+    background-color: #0369a1;
+    border: lightgreen 1px dashed;
     padding: 1rem;
     position: absolute;
     z-index: 1000;
@@ -46,6 +47,8 @@ nav {
     /* animate slide up/down */
     transform: translateY(-100%);
     transition: transform 0.2s ease;
+
+    
 }
 
 nav:target {
@@ -58,6 +61,7 @@ nav ul {
     list-style-type: none;
     font-size: 1.5rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -69,16 +73,15 @@ nav a {
     padding: 0.5rem 1rem;
 }
 
-nav a:focus {
-    text-decoration: underline;
+nav a:focus, a:hover {
+    border-bottom: 1px solid white;
     color: var(--clr-slate-100);
 }
 
-nav a:hover {
+/* nav a:hover {
     text-decoration: underline;
     color: red;
-}
-
+} */
 
 footer {
     padding-left: 4rem;
@@ -113,4 +116,27 @@ p {
 
 a {
     color: var(--clr-pink-extra-bright);
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 600px) {
+    header {
+        margin: 1rem auto;
+    }
+    nav {
+        padding: 0;
+        position: static;
+        height: auto;
+        transform: translateY(0);
+    }
+    .hamburger, 
+    .close-menu {
+        display: none;
+    }
+    nav ul {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    
 }
