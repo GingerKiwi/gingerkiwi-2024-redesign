@@ -8,7 +8,7 @@ body {
 
 header {
     padding: 1rem;
-    background-color: var(--clr-slate-500);
+    background-color: var(--clr-slate-900);
 }
 
 header ul {
@@ -29,7 +29,7 @@ main {
 }
 
 nav {
-    background-color: #0369a1;
+    background-color: var(--clr-almost-black);
     border: lightgreen 1px dashed;
     padding: 1rem;
     position: absolute;
